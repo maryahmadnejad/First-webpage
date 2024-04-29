@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Akbar Mohebbi Photography</title>
+    <link rel="stylesheet" href="Css/style.css" />
+    <link rel="stylesheet" href="Css/general.css" />
+    <link rel="stylesheet" href="Css/queries.css" />
+   
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-container">
+        <div class="header-items" >
+        <a class="logo-link" href="#">
+          <img
+            class="logo"
+            src="img/logo/amg.logo copy.png "
+            alt="Akbar Mohebbi's logo"
+          />
+        </a>
+        <nav class="main-nav">
+          <ul class="main-nav-list">
+            <li><a href="#" class="nav-link"> Home </a></li>
+            <li><a href="#about" class="nav-link"> About</a></li>
+            <li><a href="#gallery" class="nav-link"> Gallery</a></li>
+            <li><a href="#" class="nav-link"> Collections</a></li>
+            <li><a href="#" class="nav-link"> Contact</a></li>
+          </ul>
+        </nav>
+        <button class="btn-mobile-nav">
+          <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+          <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+        </button>
+      </div>
+      </div>
+    </header>
+    <main>
+      <section class="hero-section">
+        <div class="parent-container">
+          <div class="slider-carousal">
+            <div class="my-slides main">
+              <img class="img1" src="img/slider/Cosmic Transit 2.jpg" />
+            </div>
+
+            <div class="my-slides">
+              <img class="img1" src="img/slider/The Old Night Dusk 2.jpg" />
+            </div>
+
+            <div class="my-slides">
+              <img
+                class="img1 "
+                src="img/slider/Alone Under Starry Night 2.jpg"
+              />
+            </div>
+            <div class="dots">
+              <span class="navigation-dot" onclick="currentSlide(1)"></span>
+              <span class="navigation-dot" onclick="currentSlide(2)"></span>
+              <span class="navigation-dot" onclick="currentSlide(3)"></span>
+            </div>
+          </div>
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+      </section>
+      <section id="about" class="about-section">
+        <div class="about-me container">
+          <div class="about-img-box">
+            <img
+              class="akbar-img"
+              src="img/Akbar Mohebbi/photo_2023-10-28_23-13-20 copy.jpg"
+              alt="Akbar Mohebbi's photo"
+            />
+          </div>
+          <div class="about-text-box">
+            <h2 class="header-secondary">About</h2>
+            <p class="about-text">
+              My name is Akbar Mohebbi and I was born in 1991 and I'm an Astro
+              and Nightscape photographer Based in Tehran, Iran. I genuinely in
+              love with photography and capturing pure moments. The night sky is
+              always been one of my favourite genres and Nature is always a
+              place for me to forget all the hardships of my life. Every time I
+              go to the heart of nature, I start photographing landscapes. I
+              really enjoy showing this beauty to others.
+            </p>
+            <a href="#" class="btn about-more">More about me...</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="foundation-section">
+        <div class="first-heading">
+          <p>You can find my works on Foundation</p>
+          <a href="https://foundation.app/@AkiiMoo" target="_blank"
+            ><img
+              class="fn-logo"
+              src="img/Foundation/foundation-logo-freelogovectors.net_.png"
+            />
+          </a>
+        </div>
+        <div class="foundation container grid grid--2--cols">
+          <!-- Spring Way  -->
+          <div class="foundation-img-box">
+            <img class="foundation-img" src="img/Foundation/Spring Way.jpg" />
+          </div>
+          <div class="foundation-text-box">
+            <h2 class="fn-heading">Spring Way</h2>
+            <p class="fn-text">
+              Where flowers bloom so dope hope. - Lady Bird Johnson Spring is
+              like a new beginning for me. spring means reviving everything.
+              Nature takes on color again, flowers bloom and birds sing as if
+              there is a celebration. Spring is a way for happiness and love.
+            </p>
+
+            <a
+              class="foundation-link"
+              href="https://foundation.app/@AkiiMoo/ml-9386/1"
+              >Reserve
+            </a>
+          </div>
+          <!-- Morning glory  -->
+          <div class="foundation-text-box">
+            <h2 class="fn-heading">Morning glory</h2>
+            <p class="fn-text">
+              Every sunrise gives you a new beginning and a new ending. Let this
+              morning be a new beginning to a better relationship and a new
+              ending to the bad memories. Its an opportunity to enjoy life,
+              breathe freely, think and love. Be grateful for this beautiful
+              morning and day.
+            </p>
+            <a
+              class="foundation-link"
+              href="https://foundation.app/@AkiiMoo/ml-9386/2"
+              target="_blank"
+              >Reserve
+            </a>
+          </div>
+          <div class="foundation-img-box">
+            <img class="foundation-img" src="img/Foundation/Sun Glory.jpg" />
+          </div>
+          <!-- Land og light-->
+          <div class="foundation-img-box">
+            <img
+              class="foundation-img"
+              src="img/Foundation/land of light.avif"
+            />
+          </div>
+          <div class="foundation-text-box">
+            <h2 class="fn-heading">Land of light</h2>
+            <p class="fn-text">
+              Why is sunset more colorful than sunrise? It's an irony of life
+              saying: 'sometimes, good things happen in goodbyes.'
+            </p>
+            <a
+              class="foundation-link"
+              href="https://foundation.app/@AkiiMoo/ml-9386/3"
+              target="_blank"
+              >Reserve
+            </a>
+          </div>
+        </div>
+      </section>
+      <section id="gallery" class="gallery-section">
+        <div class="gallery container grid gallery-grid">
+          <div class="gallery-item gallery1">
+            <img
+              class="gallery-sample"
+              src="img/Gallery-sample/Powerful Show.jpg"
+            />
+            <a href="#" class="gallery-link"
+              ><span class="gallery-name"> Nightscape </span></a
+            >
+          </div>
+          <div class="gallery-item gallery2">
+            <img
+              class="gallery-sample"
+              src="img/Gallery-sample/Waxing Gibbous copy.jpg"
+            />
+            <a href="#" class="gallery-link"
+              ><span class="gallery-name"> Deepsky </span></a
+            >
+          </div>
+
+          <div class="gallery-item gallery3">
+            <img
+              class="gallery-sample"
+              src="img/Gallery-sample/Road to The Coalescence.jpg"
+            />
+            <a href="#" class="gallery-link"
+              ><span class="gallery-name"> Black & White </span></a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="starline-section">
+          <div class="collection-container">
+            <div class="starline-box">
+              <video
+                class="starline-vid"
+                autoplay
+                loop
+                muted
+                src="img/starlines/IMG_7132.MP4"
+                type="video/mp4"
+              ></video>
+              <div class="starline-text-box vd-overlay">
+                <h2 class="starline-heading">Starlines</h2>
+                <p class="starline-text">
+                  30 unique 1/1 NFT's produced by startrail & timelapse
+                  technique
+                </p>
+                <a href="#" class="starline-link">More about starlines...</a>
+
+                <a href="#" class="starline-link opensea">Opensea</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="footer-container grid grid--3--cols">
+          <div class="cl-1">
+            <p class="footer-header">Collections</p>
+            <a class="footer-link" href="#">Opensea</a>
+            <a class="footer-link" href="#">Foundation</a>
+          </div>
+          <div class="cl-1 author">
+            <p class="footer-header">Akbar Mohebbi Photography</p>
+            <ul class="social-links">
+              <li>
+                <a class="footer-link" href="#">
+                  <ion-icon class="social-icon" name="logo-instagram"></ion-icon
+                ></a>
+              </li>
+              <li>
+                <a class="footer-link" href="#">
+                  <ion-icon class="social-icon" name="logo-twitter"></ion-icon
+                ></a>
+              </li>
+              <li>
+                <a class="footer-link" href="#">
+                  <ion-icon class="social-icon" name="paper-plane"></ion-icon
+                ></a>
+              </li>
+            </ul>
+            <p class="copyright">Copyright &copy; <span class="year">2024</span> All rights reserved.</p>
+          </div>
+          <div class="cl-1">
+            <p class="footer-header">Contact</p>
+
+            <p>
+              <a class="footer-link" href="tel:415-201-6370">09394242179</a>
+            </p>
+            <p>
+              <a class="footer-link" href="mailto:amg7@gmail.com"
+                >amg7@gmail.com</a
+              >
+            </p>
+          </div>
+        </div>
+      </footer>
+    </main>
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</html>

@@ -154,8 +154,7 @@ instead, 1rem = 1em = 16px*/
   }
   .prev,
   .next {
-    top: 50%;
-    transform: translate(0);
+    transform: translate(0, 50%);
   }
   .navigation-dot {
     height: 1rem;

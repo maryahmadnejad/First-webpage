@@ -127,7 +127,7 @@ instead, 1rem = 1em = 16px*/
     z-index: 9999;
   }
   .logo-link {
-    padding: 3rem;
+    padding: 0;
   }
   .logo {
     width: 8rem;

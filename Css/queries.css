@@ -152,6 +152,11 @@ instead, 1rem = 1em = 16px*/
     /* height: 70vh; */
     position: relative;
   }
+  .prev,
+  .next {
+    top: 50%;
+    transform: translate(0);
+  }
   .navigation-dot {
     height: 1rem;
     width: 1rem;

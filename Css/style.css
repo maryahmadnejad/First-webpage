@@ -83,7 +83,7 @@
 
 .my-slides {
   /* max-width: 144rem; */
-  /width: 100%;
+  width: 100%;
 }
 .img1 {
   width: 100%;
@@ -156,15 +156,12 @@
   justify-content: center;
   align-items: center;
 }
-.about-img-box {
-}
+
 .akbar-img {
   width: 100%;
   border-radius: 50%;
 }
-.about-text-box {
-  /* max-width: 80rem; */
-}
+
 .header-secondary {
   font-size: 2.4rem;
   line-height: 1.6;
@@ -319,8 +316,7 @@
 .starline-text-box {
   animation: fadeIn 7s;
 }
-.starline-text-box:hover {
-}
+
 .starline-heading {
   letter-spacing: 1.6rem;
   text-transform: uppercase;

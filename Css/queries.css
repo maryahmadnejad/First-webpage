@@ -50,7 +50,7 @@ instead, 1rem = 1em = 16px*/
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all 0.5s ease-in;
+    transition: all 0.4s ease-in;
     transform: translateX(100%);
 
     opacity: 0;
@@ -142,8 +142,8 @@ instead, 1rem = 1em = 16px*/
     width: 98%;
     height: 100vh;
     object-fit: cover;
-    overflow-clip-margin: unset;
-    overflow: visible;
+    /* overflow-clip-margin: unset;
+    overflow: visible; */
     position: absolute;
     transform: translateX(1%);
   }
